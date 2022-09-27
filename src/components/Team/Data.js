@@ -1,0 +1,51 @@
+export const TeamData = [
+  {
+    pseudo: "Bureau",
+    role: "5 membres",
+    desc: "Le bureau regroupe les membres qui gèrent l’administratif et l’organisation de l’association durant le semestre.",
+    img: require('../../images/teams/bureau.jpg').default,
+    alt : "bureau",
+  },
+  {
+    pseudo: "Brassage",
+    role: "16 membres",
+    desc: "L’équipe de brassage conçoit les recettes et gère le brassage des bières qui font rayonner l’association.",
+    img: require('../../images/teams/brassage.jpg').default,
+    alt : "brassage",
+  },
+  {
+    pseudo: "Communication",
+    role: "3 membres",
+    desc: "L’équipe de communication gère et participe au rayonnement de l’association via les réseaux sociaux en créant du contenu qualitatif.",
+    img: require('../../images/teams/com.jpg').default,
+    alt : "com",
+  },
+  {
+    pseudo: "Event",
+    role: "3 membres",
+    desc: "L’équipe évènement gère les partenariats de l’association et organise les soirées organisées par l’association.",
+    img: require('../../images/teams/event.jpg').default,
+    alt : "event",
+  },
+  {
+    pseudo: "DD",
+    role: "2 membres",
+    desc: "L’équipe développement durable gère le traitement et la revalorisation des déchets issus du brassage.",
+    img: require('../../images/teams/dd.jpg').default,
+    alt : "dd",
+  },
+  {
+    pseudo: "Logistique",
+    role: "2 membres",
+    desc: "L’équipe logistique gère l’organisation concernant les stocks et les approvisionnements pour assurer le calendrier de brassage.",
+    img: require('../../images/teams/log.jpg').default,
+    alt : "log",
+  },
+  {
+    pseudo: "Info",
+    role: "1 membre",
+    desc: "La team info est résponsable de la gestion des infrastructures informatiques de l'asociation.",
+    img: require('../../images/teams/info.jpg').default,
+    alt : "info",
+  },
+]
